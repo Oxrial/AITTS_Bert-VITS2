@@ -1,0 +1,13 @@
+auto_DataLabeling/*
+!auto_DataLabeling/raw_audio
+auto_DataLabeling/raw_audio/*
+!auto_DataLabeling/*.bat
+!auto_DataLabeling/*.py
+Bert-VITS2_2.1/*
+!Bert-VITS2_2.1/Data
+Bert-VITS2_2.1/Data/*
+!Bert-VITS2_2.1/config.yml
+!Bert-VITS2_2.1/configs
+!Bert-VITS2_2.1/train_ms.py
+Patch
+auto_DataLabeling/auto_DataLabeling_re.py
