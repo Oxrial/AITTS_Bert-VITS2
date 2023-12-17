@@ -35,7 +35,7 @@ setlocal EnableDelayedExpansion
 
 DEL temp_read_file.txt
 DIR /a-d raw_audio\*.wav /B /ON > temp_read_file.txt
-.\env\python ./sort_file.py temp_read_file.txt
+.\env\python.exe ./sort_file.py temp_read_file.txt
 :wait
 timeout /t 1/nobreak >nul 2>&1
 tasklist find /i "python.exe">nul 2>&1

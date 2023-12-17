@@ -33,7 +33,6 @@ def func(s):
 
 
 content.sort(key=func)
-print(content)
 wfile = open(inputfile, "w", encoding="utf-8")
 for i in content:
     wfile.write(i + "\n")

@@ -15,5 +15,6 @@ tasklist find /i "python.exe">nul 2>&1
 if %errorlevel% equ 0 (
 	goto wait
 )
-.\env\python ./sort_file.py long_character_anno.txt \d+(?=\.wav)
+.\env\python.exe .\sort_file.py long_character_anno.txt \d+(?=\.wav)
+.\env\python.exe .\sort_file.py long_character_anno.list \d+(?=\.wav)
 pause
